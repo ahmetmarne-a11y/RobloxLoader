@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0D0D0D"
+    android:padding="36dp">
+
+    <TextView
+        android:text="⚡ ReaperEngine"
+        android:textSize="30sp"
+        android:textColor="#E53935"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="v1.0 — ESP Edition"
+        android:textSize="13sp"
+        android:textColor="#444"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Lisans Anahtarı"
+        android:textSize="13sp"
+        android:textColor="#888"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/licenseInput"
+        android:hint="Lisans Girin"
+        android:textColorHint="#333"
+        android:textColor="#FFFFFF"
+        android:background="#1A1A1A"
+        android:padding="14dp"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/licenseBtn"
+        android:text="DOĞRULA"
+        android:backgroundTint="#E53935"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/licenseError"
+        android:text=""
+        android:textColor="#E53935"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

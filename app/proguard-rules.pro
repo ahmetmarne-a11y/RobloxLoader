@@ -1,0 +1,4 @@
+-keep class com.reaper.engine.shizuku.** { *; }
+-keep class rikka.shizuku.** { *; }
+-keepattributes *Annotation*
+-dontwarn rikka.**

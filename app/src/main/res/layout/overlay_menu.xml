@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#DD0A0A0A"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/menuTitle"
+        android:text="ReaperEngine V1"
+        android:textColor="#E53935"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"
+        android:background="#2A2A2A" android:layout_marginBottom="8dp"/>
+
+    <!-- Kategori Tabları -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView android:text="AimBot"
+            android:textColor="#444" android:textSize="11sp"
+            android:gravity="center" android:padding="4dp"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <TextView android:text="ESP"
+            android:textColor="#E53935" android:textStyle="bold"
+            android:textSize="11sp" android:gravity="center"
+            android:padding="4dp" android:background="#1AE53935"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <TextView android:text="Memory"
+            android:textColor="#444" android:textSize="11sp"
+            android:gravity="center" android:padding="4dp"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"
+        android:background="#2A2A2A" android:layout_marginBottom="10dp"/>
+
+    <!-- Player ESP -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="6dp">
+
+        <TextView android:text="Player ESP"
+            android:textColor="#CCCCCC" android:textSize="13sp"
+            android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <Switch android:id="@+id/switchPlayerEsp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:thumbTint="#E53935"
+            android:trackTint="#333333"/>
+
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"
+        android:background="#1A1A1A" android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:text="280m · Box · Skeleton · Tracer"
+        android:textColor="#333" android:textSize="10sp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
