@@ -71,7 +71,7 @@ class OverlayService : Service() {
         }
 
         menuView.findViewById<Switch>(R.id.switchPlayerEsp).setOnCheckedChangeListener { _, on ->
-            espCanvas.enabled = on
+            espCanvas.espEnabled = on
         }
 
         wm.addView(menuView, p)

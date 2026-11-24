@@ -6,7 +6,7 @@ import android.view.View
 
 class ESPCanvas(context: Context) : View(context) {
 
-    var enabled = false
+    var espEnabled = false
 
     data class ESPPlayer(
         val name: String,
@@ -43,7 +43,7 @@ class ESPCanvas(context: Context) : View(context) {
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
-        if (!enabled) { postInvalidateDelayed(16); return }
+        if (!espEnabled) { postInvalidateDelayed(16); return }
 
         val sx = width / robloxVP.x
         val sy = height / robloxVP.y
